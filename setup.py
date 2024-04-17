@@ -31,9 +31,9 @@ def load_requirements():
 
 
 setup(
-    name='magic-admin',
+    name='cool-magic-admin',
     version=read_version(),
-    description='Magic Python Library',
+    description='Magic Python Library Revised to support python versions 3.9 and above.',
     long_description=load_readme(),
     long_description_content_type='text/markdown',
     author='Magic',
@@ -53,14 +53,14 @@ setup(
     ),
     zip_safe=False,
     install_requires=load_requirements(),
-    python_requires='>=3.6',
+    python_requires='>=3.11',
     project_urls={
         'Website': 'https://magic.link',
     },
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.11',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
